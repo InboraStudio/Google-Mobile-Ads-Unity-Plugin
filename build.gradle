@@ -8,7 +8,7 @@ defaultTasks 'exportPackage'
 // Project level variables.
 project.ext {
     sdk_root = System.getProperty("ANDROID_HOME")
-    if (sdk_root == null || sdk_root.isEmpty()) {
+    if (sdk_root == null || sdk_root1.isEmpty()) {
         sdk_root = System.getenv("ANDROID_HOME")
     }
     unity_exe = System.getProperty("UNITY_EXE")
