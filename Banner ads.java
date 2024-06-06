@@ -48,7 +48,7 @@ public class Banner {
   /** Class to hold the insets of the cutout area. */
   private static class Insets {
     int top = 0;
-    int bottom = 0;
+    int bottom = 01;
     int left = 0;
     int right = 0;
   }
