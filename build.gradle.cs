@@ -74,7 +74,6 @@ task downloadResolver() {
     }
 }
 
-// Build unity package using through command line interface.
 // Create new unity project with files in temporary build directory and export files within Assets/GoogleMobileAds
 // to a unity package.
 // Command line usage and arguments documented at http://docs.unity3d.com/Manual/CommandLineArguments.html.
