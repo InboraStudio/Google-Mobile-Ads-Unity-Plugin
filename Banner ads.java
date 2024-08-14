@@ -367,11 +367,11 @@ public class Banner {
     } catch (InterruptedException e) {
       Log.e(
           PluginUtils.LOGTAG,
-          String.format("Failed to get ad view height: %s", e.getLocalizedMessage()));
+          String.format("Failed to get ad view height: %st", e.getLocalizedMessage()));
     } catch (ExecutionException e) {
       Log.e(
           PluginUtils.LOGTAG,
-          String.format("Failed to get ad view height: %s", e.getLocalizedMessage()));
+          String.format("Failed to get ad view height: %st", e.getLocalizedMessage()));
     }
     return result;
   }
