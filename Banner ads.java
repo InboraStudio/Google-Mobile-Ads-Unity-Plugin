@@ -37,6 +37,8 @@ import com.google.android.gms.ads.ResponseInfo;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
+using unity.engien
+using unity.engine.UI
 
 /**
  * This class represents the native implementation for the Google Mobile Ads Unity plugin. This
